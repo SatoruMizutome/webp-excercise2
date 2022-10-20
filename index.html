@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="utf-8">
+  <title>HTMLの説明</title>
+  <meta name="description" content="HTMLの「4 The elements of HTML」から好きなHTML要素を3つ選び、その説明を行っています。">
+  <link href="styles/style.css" rel="stylesheet" type="text/css">
+ </head>
+
+ <body>
+  <header>
+   <p>日本大学文理学部情報科学科 Webプログラミングの演習課題</p>
+   <p>学籍番号 5421056</p>
+   <p>氏名　水留　悟</p>
+   
+  </header>
+  
+  <h1>HTML要素</h1>
+  
+   <h2>ol要素</h2>
+   <h3>説明</h3>
+   <p>ol要素は、項目の順序付きリストを表します。ふつうは番号付きのリストとして表示されます。ふつう、順序付きリストの項目は、先頭に数字や文字などのマーカーが表示されます。ol要素とul要素は、必要なだけ深く入れ子にすることができ、 ol と ul を好きなだけ変更することもできます。先頭にローマ文字を使用したい場合は、最初を&lt;ol type="i"&gt;の形にします。start属性の使用も同様に&lt;ol start="4"&gt;の形にし、実行します。</p>
+   <h3>マークアップ例</h3>
+    <p>
+     &lt;ol&gt;<br>
+     &nbsp;&lt;li&gt;日本<br>
+     &nbsp;&lt;li&gt;アメリカ<br>
+     &nbsp;&lt;li&gt;イギリス<br>
+     &nbsp;&lt;li&gt;ドイツ<br>
+     &lt;/ol&gt;<br>
+     </p>
+    <ol>
+     <li>日本
+     <li>アメリカ
+     <li>イギリス
+     <li>ドイツ
+    </ol>
+   
+  
+   <h2>ul要素</h2>
+   <h3>説明</h3>
+   <p>ul要素は、数的な順序がなく、その配置順に意味を持たない項目を持つリストを表します。通常、順序なしリストの項目はドット、円形、四角形などいくつかの形式による行頭記号を伴って描画されます。行頭記号のスタイルは HTML 仕様書のページでは定義されていませんが、 CSS の list-style-type プロパティを用いて変更することが可能です。</p>
+   <h3>マークアップ例</h3>
+   <p>
+     &lt;ul&gt;<br>
+     &nbsp;&lt;li&gt;日本<br>
+     &nbsp;&lt;li&gt;アメリカ<br>
+     &nbsp;&lt;li&gt;イギリス<br>
+     &nbsp;&lt;li&gt;ドイツ<br>
+     &lt;/ul&gt;<br>
+     </p>
+    <ul>
+     <li>日本
+     <li>アメリカ
+     <li>イギリス
+     <li>ドイツ
+    </ul>
+ 
+   <h2>p要素</h2>
+   <h3>説明</h3>
+    <p>p要素はテキストの段落を表します。視覚メディアにおいて、段落はふつう隣接するブロックと上下の空白や最初の行の字下げによって隔てられたテキストのブロックとして表現されますが、 HTML の段落は画像やフォーム欄などの関連するコンテンツを構造的にまとめることができます。リスト要素をp要素の子にすることはできません。したがって、文意箇条書きが含まれる場合、マークアップ例のようにする必要があります。</p>
+   <p></p>
+   <h3>マークアップ例</h3>
+     &lt;p&gt;私の好きな食べ物は、&lt;/p&gt;<br>
+     &lt;ul&gt;<br>
+     &nbsp;&lt;li&gt;餃子<br>
+     &nbsp;&lt;li&gt;ラーメン<br>
+     &nbsp;&lt;li&gt;寿司<br>
+     &lt;/ul&gt;<br>
+     &lt;p&gt;以上の３つです。&lt;/p&gt;
+    <p>私の好きな食べ物は、</p>
+    <ul>
+     <li>餃子
+     <li>ラーメン
+     <li>寿司
+    </ul>
+   <p>以上の３つです。</p>
+  <footer>
+   <p>参考文献：<cite><a href="https://developer.mozilla.org/ja/">mdn</a></cite></p>
+  </footer>
+ </body>
+</html>
